@@ -7,7 +7,7 @@ namespace TimePlanner.Core.Sync
     public static class SyncServiceCollectionExtensions
     {
         //hosted dashboard used when no address is given
-        public const string DefaultDashboardUrl = "timeplanner-ledge-dj-akdrf6a8hadackdc.southafricanorth-01.azurewebsites.net";
+        public const string DefaultDashboardUrl = "https://timeplanner-ledge-dj-akdrf6a8hadackdc.southafricanorth-01.azurewebsites.net";
 
         //environment variable a developer sets to use a local dashboard
         public const string DashboardUrlVariable = "TIMEPLANNER_DASHBOARD_URL";
